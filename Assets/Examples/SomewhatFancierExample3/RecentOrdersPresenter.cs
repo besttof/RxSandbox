@@ -13,7 +13,7 @@ public class RecentOrdersPresenter : MonoBehaviour
 	{
 		_source.OrderedCoffees
 			.Timestamp()
-			.Select(s => $"{s.Timestamp:hh:mm}: {s.Value.GetType().Name}")
+			.Select(s => $"{s.Timestamp:HH:mm}: {s.Value.GetType().Name}")
 			.Buffer(_orderhistory, 1)
 			.Select(l => string.Join(",\n", l.ToArray()))
 			.Subscribe(orders => _text.text = $"Last {_orderhistory} orders:\n{orders}")
