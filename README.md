@@ -1,12 +1,14 @@
-# Hi
+# :wave: hi
 
 This project has some examples to play around with and get familiar with Rx in Unity.
 
-Start with the Sandbox scene, after that check the somewhat fancier examples. Finally, a rather silly Peggle-ish demo is provided to toy around with. See the README's in each project in the [Examples](Assets/Examples/) for more info about each example.
+Start with the {Sandbox](Assets/Examples/Sandbox/) example, where the basics can be explored. After that check the somewhat fancier examples: [Puma](Assets/Examples/SomewhatFancierExample1/), [HealthBar](Assets/Examples/SomewhatFancierExample2/) and [Coffee](Assets/Examples/SomewhatFancierExample3/). Each example has an accompanying README file with more info. 
 
 The fancier examples always have one main script with the observables in it and an Example game object in the root of the scene hierarchy.
 
-# Links
+Finally, there's a rather silly [Peggle-ish](Assets/Examples/PeggleRx/) demo that demonstrates different ways of using observables.
+
+# :link: links
 
 - https://github.com/neuecc/UniRx
 - https://rxmarbles.com/
